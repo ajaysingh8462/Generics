@@ -12,7 +12,7 @@ namespace GenricDemo
         public static void Main(string[] args)
         {
 
-            int maxint = FindMax.FindIntMax(3, 2, 1);
+            int maxint = FindMax.FindIntMax(1, 3, 2);
             Console.WriteLine("The maximum number of in  is :" + maxint);
         }
     }
