@@ -15,8 +15,15 @@ namespace Generics
             int maxint = FindMax.FindIntMax(3, 2, 1);
             Console.WriteLine("The maximum number of in  is :" + maxint);
 
-            float maxfloat = FindMax.FindFloatMax(3.1f, 2.1f, 1.1f);
+            Console.WriteLine("Test case 1 find max of float (3.1,.1,1.1)");
+            float Maxfloat = FindMax.FindFloatMax(3.1f, 2.1f, 1.1f);
+            Console.WriteLine("The maximum number of float is :" + Maxfloat);
+            Console.WriteLine("Test case 2 find max of float (1.1,3.1,1.1)");
+            float maxfloat = FindMax.FindFloatMax(1.1f, 3.1f, 2.1f);
             Console.WriteLine("The maximum number of float is :" + maxfloat);
+            Console.WriteLine("Test case 3 find max of float (1.1,2.1,3.1)");
+            float maxFloat = FindMax.FindFloatMax(1.1f, 2.1f, 3.1f);
+            Console.WriteLine("The maximum number of float is :" + maxFloat);
 
 
         }
