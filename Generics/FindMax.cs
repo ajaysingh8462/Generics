@@ -38,7 +38,23 @@ namespace Generics
             {
                 return num3;
             }
-            return 0;
+            return 3;
+        }
+        public static String FindStringMax(string A, string B, string C)
+        {
+            if (A.CompareTo(B) > 0 && A.CompareTo(C) > 0)
+            {
+                return A;
+            }
+            if (B.CompareTo(A) > 0 && B.CompareTo(C) > 0)
+            {
+                return B;
+            }
+            if (C.CompareTo(A) > 0 && C.CompareTo(B) > 0)
+            {
+                return C;
+            } 
+            return null;
         }
     }
 }
